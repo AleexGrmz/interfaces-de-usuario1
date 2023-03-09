@@ -9,4 +9,4 @@ comboEstados = ttk.Combobox(raiz, textvariable=estado)
 comboEstados.grid()
 comboEstados['values'] = ("Jalisco", "Nayarit", "Colima", "Michoacan")
 
-raiz.mainloop
+raiz.mainloop()
